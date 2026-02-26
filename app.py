@@ -493,7 +493,7 @@ with st.sidebar:
     compare_tariffs = st.multiselect(
         "Select tariff rates to compare (%)",
         options=[0, 5, 10, 15, 16.5, 20, 27.5, 30, 50, 100],
-        default=[0, 5, 10, 15, 27.5]
+        default=[0, 5, 10, 15]
     )
 
     st.markdown("---")
